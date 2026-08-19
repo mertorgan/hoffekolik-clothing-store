@@ -1,0 +1,230 @@
+body{background:#f2f2f2;
+font-family:Arial;/*yazı tipi*/
+font-size:14px;/*yazı boyutu*/
+margin:0px;/*sayfa ile tarayıcı penceresi arasında boşluk olmasın*/
+}
+#sayfa{width:90%;background:#fff;margin-left:auto;margin-right:auto}
+#header{
+	background:linear-gradient(#544b91,#7398dd);
+	padding:10px 40px;
+}
+#logo {
+  float: left;
+  width: 125px; /* istediğin genişlik */
+  margin-top: -5px; /* yeşil header'ın üstüne taşırmak için */
+}
+
+#logo img {
+  width: 100%;
+  height: 100px;
+}
+
+#arama{float:left;margin-left:140px; margin-top:50px;}
+#arama button{cursor:pointer; /*mouse göstergesi el şeklinde*/ 
+padding:5px 10px; /*top ve bottom 5px; right ve left 10px*/}
+
+#arama input[type="text"] /*arama katmanı içindeki type özelliği text olan input elemanını seçer. Yani metin kutusunu (textbox) seçer. çünkü type özelliği text olan input elemanı textbox'dir.*/
+{
+	padding:5px;
+	outline:0;/*metin kutusuna yazı eklemek üzere tıklandığında görünür olan çerçeveyi kaldırır*/
+}
+
+/*
+padding:10px; top,bottom,left,right her biri 10px
+padding:5px 8px 12px 25px;  üstten baişla saat yönünde yani top:5px, right 8px, bottom:12px left:25px olur
+
+bunlar margin tanımı içinde geçerlidir.
+*/
+
+#kullanici{float:right;width:25%; margin-top:50px;}
+#kullanici input[type="text"],#kullanici input[type="password"] {padding:5px; width:30%;}
+#kullanici button{padding:5px 10px; cursor:pointer;}
+#kullanici a{color:#fff;}
+
+
+/* Üst Menü */
+#ust-menu {
+    background-color: #111;
+    overflow: auto;
+    border-bottom: 2px solid #000;
+}
+
+#ust-menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#ust-menu li {
+    float: left;
+    padding: 15px 25px;
+    transition: background 0.3s;
+}
+
+#ust-menu a {
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#ust-menu li:hover {
+    background-color: #444;
+}
+
+/* Orta Katman*/
+#orta-katman {
+    background-color: #fff;
+    overflow: auto;
+    padding: 20px;
+}
+
+#sol-kisim {
+    width: 20%;
+    float: left;
+}
+
+#icerik-alani {
+    width: 54%;
+    float: left;
+    margin: 0px 3%;
+}
+
+#sag-kisim {
+    width: 20%;
+    float: left;
+}
+
+/* Yan Panel*/
+.sol-kutu, .sag-kutu {
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.sol-kutu h3, .sag-kutu h3 {
+    text-align: left;
+    margin-top: 0;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    color: #333;
+}
+
+.sol-kutu ul, .sag-kutu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sol-kutu ul li {
+    padding: 8px 0;
+}
+
+.sol-kutu ul a {
+    text-decoration: none;
+    color: #666;
+}
+
+.sol-kutu ul li:hover a {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Slider ve Ürünler*/
+#slider {
+    float: left;          
+    width: 44%;            
+    margin: 2%;            
+    padding: 10px;         
+    border: 1px solid #efefef; 
+    background-color: #fff;
+    text-align: center;
+}
+
+#slider img {
+    width: 100%;           
+    height: 250px;         
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#urunler {
+    overflow: hidden;
+}
+
+#urunler .urun {
+    float: left;
+    width: 42%;
+    margin: 2%;
+    padding: 10px;
+    border: 1px solid #efefef;
+    background-color: #fff;
+    text-align: center;
+}
+
+#urunler .urun:hover {
+    border-color: #333;
+}
+
+#urunler .urun img {
+    max-width: 100%;
+    height: 250px; 
+    margin-bottom: 10px;
+}
+
+/* Kampanya*/
+.kampanya {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.detay-img { 
+    float: left; 
+    margin-right: 25px; 
+    width: 300px; 
+    border: 1px solid #ddd;
+}
+
+.form-input { 
+    width: 90%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+}
+
+.kayit-btn { 
+    padding: 12px 25px; 
+    background-color: #111; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+    font-weight: bold;
+}
+
+.teknik-tablo { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px;
+}
+
+.teknik-tablo td {
+    padding: 12px;
+    border: 1px solid #eee;
+}
+
+/* Temizleme*/
+.temizle {
+    clear: both;
+}
+
+#footer {
+    padding: 25px;
+    background-color: #111;
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+}
