@@ -1,5 +1,20 @@
-# hoffekolik-clothing-store
+# Hoffekolik Clothing Store
+
 Fashion e-commerce website developed with HTML and CSS.
+
+## Screenshots
+
+### Home Page
+
+!creenshots/ana-sayfa.png
+
+### Registration Page
+
+screenshots/kayit-ol.png
+
+### Product Details Page
+
+screenshots/urun-detay.png
 
 ## Features
 
@@ -15,5 +30,5 @@ Fashion e-commerce website developed with HTML and CSS.
 
 ## Developer
 
-Emir Mert Organ
+Emir Mert Organ  
 Computer Programming Student
