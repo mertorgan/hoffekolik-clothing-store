@@ -6,7 +6,7 @@ Fashion e-commerce website developed with HTML and CSS.
 
 ### Home Page
 
-![Home Page](Homeshots/ana-sayfa.png)
+![Home Page](screenshots/ana-sayfa.png)
 
 ### Registration Page
 
