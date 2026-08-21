@@ -6,15 +6,13 @@ Fashion e-commerce website developed with HTML and CSS.
 
 ### Home Page
 
-!creenshots/ana-sayfa.png
+![Home Page](screenshotsg
 
 ### Registration Page
 
-screenshots/kayit-ol.png
+![Registration Page](screens# Product Details Page
 
-### Product Details Page
-
-screenshots/urun-detay.png
+![Product Detailsdetay.png
 
 ## Features
 
